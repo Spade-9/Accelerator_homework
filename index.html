@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>调查问卷</title>
+    <link rel="stylesheet" href="hhh.css" />
+</head>
+
+<body>
+    <div id="questionnaire">
+        <h1>关于网络小说的调查问卷</h1>
+        <hr />
+        <form>
+            <!-- 列表 -->
+            <ul>
+                <li>姓名及年龄</li>
+                <label>您的姓名<input type="text" name="name" required="required" /></label>
+                <label>您的年龄<input type="text" name="age" required="required" /></label>
+                <li>性别</li>
+                <input type="radio" name="sex" value="男" id="男"><label for="男"><img src="img/男.png" width="20">
+                    男</label>
+                <input type="radio" name="sex" value="女" id="女"><label for="女"><img src="img/女.png" width="20">
+                    女</label>
+                <li>生日</li>
+                <select>
+                    <option>--请选择月--</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <select>
+                    <option>--请选择日--</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+            </ul>
+            <ol>
+                <li>您现在就读于？</li>
+                <label>
+                    <input type="radio" name="question1" value="question1_1" required="required" />大学
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="question1_2" required="required" />高中
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="question1_3" required="required" />初中
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="question1_4" required="required" />小学
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="question1_5" required="required" />就业
+                </label>
+                <li>您的看网络小说频繁程度为？</li>
+                <label>
+                    <input type="radio" name="question2" value="question2_1" required="required" />这是个啥
+                </label><br />
+                <label>
+                    <input type="radio" name="question2" value="question2_2" required="required" />从来不看
+                </label><br />
+                <label>
+                    <input type="radio" name="question2" value="question2_3" required="required" />偶尔会看
+                </label><br />
+                <label>
+                    <input type="radio" name="question2" value="question2_4" required="required" />经常会看
+                </label><br />
+                <label>
+                    <input type="radio" name="question2" value="question2_5" required="required" />一天不看就不舒服
+                </label><br />
+                <li>您了解以下那些阅读软件？（可多选）</li>
+                <label>
+                    <input type="checkbox" name="question3" value="question3_1" />晋江
+                </label>
+                <label>
+                    <input type="checkbox" name="question3" value="question3_2" />长佩
+                </label>
+                <label>
+                    <input type="checkbox" name="question3" value="question3_3" />夸克浏览器
+                </label>
+                <label>
+                    <input type="checkbox" name="question3" value="question3_4" />百度网盘
+                </label>
+                <label>
+                    <input type="checkbox" name="question3" value="question3_5" />其他
+                </label>
+                <li>您常用的阅读软件是什么？（可多选）</li>
+                <label>
+                    <input type="checkbox" name="question4" value="question4_1" />晋江
+                </label>
+                <label>
+                    <input type="checkbox" name="question4" value="question4_2" />长佩
+                </label>
+                <label>
+                    <input type="checkbox" name="question4" value="question4_3" />夸克浏览器
+                </label>
+                <label>
+                    <input type="checkbox" name="question4" value="question4_4" />百度网盘
+                </label>
+                <label>
+                    <input type="checkbox" name="question4" value="question4_5" />其他
+                </label>
+                <li>有什么想分享的吗？</li>
+                <textarea>说点什么吧~</textarea>
+            </ol>
+            <div id="btn">
+                <button type="submit">提交问卷</button>
+            </div>
+        </form>
+        <hr />
+
+    </div>
+
+
+</body>
+
+</html>
