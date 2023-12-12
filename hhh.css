@@ -1,9 +1,9 @@
 body {
-    background-color: #CCCCCC;
+    background-color: rgb(221, 225, 226);
 }
 
 #questionnaire {
-    background-color: white;
+    background-color: rgb(242, 245, 247);
     padding: 20px;
     margin: auto;
     width: 1000px;
@@ -76,8 +76,8 @@ select {
 }
 
 textarea {
-    height: 50;
-    width: 5;
+    height: 500;
+    width: 50;
     background: #f8f8f8;
 
     border-bottom: #b7b7b7 1px solid;
