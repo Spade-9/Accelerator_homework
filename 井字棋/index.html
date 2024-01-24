@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- 模式选择 -->
+    <div class="mode">
+        <div class="title">Tic Tac Toe</div>
+        <div class="caption">Make Your Choice!</div>
+        <div class="mode-select">
+            <button class="BO1">BO1</button>
+            <button class="BO3">BO3</button>
+            <button class="BO5">BO5</button>
+        </div>
+    </div>
+
+
+    <!-- 开始模块 -->
+    <div class="start hide">
+        <div class="title">Tic Tac Toe</div>
+        <div class="caption showResult">Make Your Choice!</div>
+        <div class="options">
+            <button class="X">PlayerX</button>
+            <button class="O">PlayerO</button>
+        </div>
+    </div>
+
+
+    <!-- 游戏模块 -->
+    <div class="game hide">
+        <div class="title">Tic Tac Toe</div>
+        <div class="board">
+            <table>
+                <tr>
+                    <td id="0" class="square"></td>
+                    <td id="1" class="square"></td>
+                    <td id="2" class="square"></td>
+                </tr>
+                <tr>
+                    <td id="3" class="square"></td>
+                    <td id="4" class="square"></td>
+                    <td id="5" class="square"></td>
+                </tr>
+                <tr>
+                    <td id="6" class="square"></td>
+                    <td id="7" class="square"></td>
+                    <td id="8" class="square"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- 结束界面 -->
+    <div class="end hide">
+        <div class="title">Tic Tac Toe</div>
+        <div class="caption result"></div>
+        <div class="options">
+            <button class="replay">Replay</button>
+            <button class="withdraw">Withdraw</button>
+        </div>
+    </div>
+
+
+    <!-- JS -->
+    <script src="index.js"></script>
+</body>
+
+</html>

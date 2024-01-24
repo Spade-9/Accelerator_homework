@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS;
+    color: white;
+}
+
+.start,
+.mode,
+.game,
+.end {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #6ec6f2;
+    border: 7px solid #1785bc;
+    border-radius: 15px;
+    transition: all 0.1s ease;
+}
+
+.start,
+.end {
+    width: 450px;
+    height: 350px;
+}
+
+
+/* 隐藏界面 */
+.hide {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.title {
+    /* margin: 10px; */
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1000;
+    height: 90px;
+    line-height: 130px;
+
+}
+
+.caption {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    height: 90px;
+    line-height: 90px;
+    margin-top: 20px;
+}
+
+.options,
+.mode-select {
+    margin-top: 20px;
+    height: 100px;
+    text-align: center;
+}
+
+
+button {
+    height: 80px;
+    width: 180px;
+    margin: 10px;
+    border: #1785bc;
+    border-right: 7px solid #1785bc;
+    border-bottom: 7px solid #1785bc;
+    font-size: 35px;
+    font-weight: 1000;
+    border-radius: 20px;
+    background-color: #56baed;
+    cursor: pointer;
+}
+
+button:hover {
+    height: 100px;
+    width: 200px;
+}
+
+
+/* 模式选择界面 */
+.mode {
+    width: 700px;
+    height: 350px;
+}
+
+/* 游戏界面 */
+.game {
+    /* display: none; */
+    width: 400px;
+    height: 600px;
+}
+
+.board {
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 350px;
+    height: 350px;
+}
+
+
+td {
+    width: 114px;
+    height: 114px;
+    border-right: 7px solid #1785bc;
+    border-bottom: 7px solid #1785bc;
+    /* border-left: 1px solid #1785bc;
+    border-top: 1px solid #1785bc; */
+    background-color: #56baed;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    cursor: pointer;
+}
